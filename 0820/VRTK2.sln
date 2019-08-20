@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRTK2", "Assembly-CSharp.csproj", "{65489999-3779-CDC6-8601-C0248C0D558D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VRTK2", "Assembly-CSharp-Editor.csproj", "{B5932E0F-D6E7-F0F2-F981-F14085C7655F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65489999-3779-CDC6-8601-C0248C0D558D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65489999-3779-CDC6-8601-C0248C0D558D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65489999-3779-CDC6-8601-C0248C0D558D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65489999-3779-CDC6-8601-C0248C0D558D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5932E0F-D6E7-F0F2-F981-F14085C7655F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5932E0F-D6E7-F0F2-F981-F14085C7655F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5932E0F-D6E7-F0F2-F981-F14085C7655F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5932E0F-D6E7-F0F2-F981-F14085C7655F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
