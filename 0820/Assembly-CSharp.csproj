@@ -279,6 +279,7 @@
     <Compile Include="Assets\Script\Levercontroll.cs" />
     <Compile Include="Assets\Script\light1.cs" />
     <Compile Include="Assets\Script\light2.cs" />
+    <Compile Include="Assets\Script\light3.cs" />
     <Compile Include="Assets\Script\LoadingManager.cs" />
     <Compile Include="Assets\Script\MemoBoard.cs" />
     <Compile Include="Assets\Script\MenuButton.cs" />
@@ -691,6 +692,7 @@
     <None Include="Assets\Oculus\VR\Resources\Texture2D Blit.shader" />
     <None Include="Assets\OvrAvatar\Content\Materials\AvatarSurfaceShaderPBS.shader" />
     <None Include="Assets\Map2\tv\Poly\TV.shader" />
+    <None Include="Assets\Map2\dec9182091c533d533cd77e49af771e2\archibase.net.txt" />
     <None Include="Assets\VRTK\Source\Scripts\Internal\Shaders\VRTK_TunnelEffect.shader" />
     <None Include="Assets\Oculus\VR\Resources\OVRMRCameraFrame.shader" />
     <None Include="Assets\OvrAvatar\Samples\SocialStarter\README.txt" />
