@@ -23,6 +23,9 @@ TagManager:
   - FlashLight
   - lever
   - white
+  - Cubes
+  - Whiteboard
+  - Spheres
   layers:
   - Default
   - TransparentFX
@@ -33,7 +36,7 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - 
+  - postmenu
   - 
   - 
   - 

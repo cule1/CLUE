@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerRotation : MonoBehaviour {
 
     public GameObject Player;
-    public GameObject Board;
+  //  public GameObject Board;
 
     // Use this for initialization
     void Start()
@@ -24,8 +24,8 @@ public class PlayerRotation : MonoBehaviour {
         //
         //}
 
-        if (!Board.gameObject.activeSelf)
-        {
+        //if (!Board.gameObject.activeSelf)
+        //{
             if (OVRInput.GetDown(OVRInput.Button.PrimaryThumbstickRight, OVRInput.Controller.RTouch))
             {
                 Player.gameObject.transform.SetPositionAndRotation(Player.transform.position, Quaternion.Euler(0, Player.transform.localEulerAngles.y + 30, 0));
@@ -36,7 +36,7 @@ public class PlayerRotation : MonoBehaviour {
                 Player.gameObject.transform.Rotate(0, -30, 0);
 
             }
-        }
+      //  }
     }
 }
 

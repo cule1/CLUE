@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class LoadingManager : MonoBehaviour {
     public static string nextScene;
+    public Animator animator;
+    private int levelToLoad;
 
     [SerializeField]
     Image progressBar;
@@ -23,7 +25,21 @@ public class LoadingManager : MonoBehaviour {
         nextScene = sceneName;
         SceneManager.LoadScene("Loading");
     }
+    public void FadeToNextLevel()
+    {
+        FadeToLevel(SceneManager.GetActiveScene().buildIndex + 0);
+    }
 
+    public void FadeToLevel(int levelIndex)
+    {
+        levelToLoad = levelIndex;
+        animator.SetTrigger("FadeOut");
+    }
+
+    public void OnFadeComplete()
+    {
+        SceneManager.LoadScene("Menu");
+    }
     IEnumerator LoadScene()
     {
         yield return null;
